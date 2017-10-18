@@ -1,0 +1,1 @@
+/Users/sameersiddiqui/Projects/Touchpoint/Build/Intermediates/ArchiveIntermediates/Touchpoint/InstallationBuildProductsLocation/Applications/Touchpoint.app

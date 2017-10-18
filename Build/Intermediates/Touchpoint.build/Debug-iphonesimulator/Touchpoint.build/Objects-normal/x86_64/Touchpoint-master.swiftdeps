@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "e3387a465bebe5dc78e51a18f5b1449f"
+build_time: [1508359422, 347421000]
+inputs:
+  "/Users/sameersiddiqui/Projects/Touchpoint/Touchpoint/ViewControllers/ViewController.swift": [1508359422, 0]
+  "/Users/sameersiddiqui/Projects/Touchpoint/Touchpoint/AppDelegate.swift": [1508358922, 0]

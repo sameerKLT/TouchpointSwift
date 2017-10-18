@@ -1,0 +1,721 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CookieName"
+- "ViewController"
+provides-nominal:
+- "10Touchpoint10CookieNameO"
+- "10Touchpoint14ViewControllerC"
+provides-member:
+- ["10Touchpoint10CookieNameO", ""]
+- ["10Touchpoint14ViewControllerC", ""]
+- ["10Touchpoint14ViewControllerC", "processCookies"]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "webView"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CookieName"
+- "Error"
+- "String"
+- "StringLiteralType"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- "ViewController"
+- "WKNavigation"
+- "WKNavigationDelegate"
+- "WKUIDelegate"
+- "WKWebView"
+- !private "WKWebsiteDataStore"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "load"]
+- !private ["So15CALayerDelegateP", "navigationDelegate"]
+- !private ["So15CALayerDelegateP", "uiDelegate"]
+- !private ["s7CVarArgP", "CookieName"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "WKWebsiteDataStore"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "getAllCookies"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "httpCookieStore"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isNavigationBarHidden"]
+- !private ["s7CVarArgP", "isUserAuthenticated"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "navigationDelegate"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "processCookies"]
+- !private ["s7CVarArgP", "uiDelegate"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewDidClose"]
+- ["s7CVarArgP", "webViewWebContentProcessDidTerminate"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["10Touchpoint10CookieNameO", "RawValue"]
+- ["10Touchpoint10CookieNameO", "alias"]
+- ["10Touchpoint10CookieNameO", "badgeCount"]
+- ["10Touchpoint10CookieNameO", "deinit"]
+- ["10Touchpoint10CookieNameO", "hashValue"]
+- ["10Touchpoint10CookieNameO", "init"]
+- ["10Touchpoint10CookieNameO", "rawValue"]
+- ["10Touchpoint10CookieNameO", "tags"]
+- !private ["s28CustomDebugStringConvertibleP", "CookieName"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "WKWebsiteDataStore"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "getAllCookies"]
+- !private ["s28CustomDebugStringConvertibleP", "httpCookieStore"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserAuthenticated"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "processCookies"]
+- !private ["s28CustomDebugStringConvertibleP", "uiDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidClose"]
+- ["s28CustomDebugStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CookieName"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "WKWebsiteDataStore"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "getAllCookies"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "httpCookieStore"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isNavigationBarHidden"]
+- !private ["s23CustomStringConvertibleP", "isUserAuthenticated"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "navigationDelegate"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "processCookies"]
+- !private ["s23CustomStringConvertibleP", "uiDelegate"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewDidClose"]
+- ["s23CustomStringConvertibleP", "webViewWebContentProcessDidTerminate"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CookieName"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URLRequest"]
+- !private ["s9EquatableP", "WKWebsiteDataStore"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alias"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "getAllCookies"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "httpCookieStore"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isNavigationBarHidden"]
+- !private ["s9EquatableP", "isUserAuthenticated"]
+- !private ["s9EquatableP", "load"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "navigationController"]
+- !private ["s9EquatableP", "navigationDelegate"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "processCookies"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "uiDelegate"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", "webView"]
+- ["s9EquatableP", "webViewDidClose"]
+- ["s9EquatableP", "webViewWebContentProcessDidTerminate"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["So10HTTPCookieC", "name"]
+- !private ["s8HashableP", "CookieName"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URLRequest"]
+- !private ["s8HashableP", "WKWebsiteDataStore"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "alias"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "getAllCookies"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "httpCookieStore"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isNavigationBarHidden"]
+- !private ["s8HashableP", "isUserAuthenticated"]
+- !private ["s8HashableP", "load"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "navigationController"]
+- !private ["s8HashableP", "navigationDelegate"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "processCookies"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "uiDelegate"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", "webView"]
+- ["s8HashableP", "webViewDidClose"]
+- ["s8HashableP", "webViewWebContentProcessDidTerminate"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["So8NSCodingP", "CookieName"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URLRequest"]
+- !private ["So8NSCodingP", "WKWebsiteDataStore"]
+- !private ["So8NSCodingP", "default"]
+- !private ["So8NSCodingP", "httpCookieStore"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNavigationBarHidden"]
+- !private ["So8NSCodingP", "isUserAuthenticated"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "navigationDelegate"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "processCookies"]
+- !private ["So8NSCodingP", "uiDelegate"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewDidClose"]
+- ["So8NSCodingP", "webViewWebContentProcessDidTerminate"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CookieName"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "WKWebsiteDataStore"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "isUserAuthenticated"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "processCookies"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "webView"]
+- ["So26NSExtensionRequestHandlingP", "webViewDidClose"]
+- ["So26NSExtensionRequestHandlingP", "webViewWebContentProcessDidTerminate"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CookieName"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "WKNavigation"]
+- ["So8NSObjectC", "WKWebView"]
+- !private ["So8NSObjectC", "WKWebsiteDataStore"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "getAllCookies"]
+- !private ["So8NSObjectC", "httpCookieStore"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isNavigationBarHidden"]
+- ["So8NSObjectC", "isUserAuthenticated"]
+- !private ["So8NSObjectC", "load"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "navigationDelegate"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "processCookies"]
+- ["So8NSObjectC", "touchPointAliasCookieName"]
+- !private ["So8NSObjectC", "uiDelegate"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewDidClose"]
+- ["So8NSObjectC", "webViewWebContentProcessDidTerminate"]
+- !private ["So16NSObjectProtocolP", "CookieName"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- !private ["So16NSObjectProtocolP", "WKWebsiteDataStore"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "getAllCookies"]
+- !private ["So16NSObjectProtocolP", "httpCookieStore"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isNavigationBarHidden"]
+- !private ["So16NSObjectProtocolP", "isUserAuthenticated"]
+- !private ["So16NSObjectProtocolP", "load"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "navigationController"]
+- !private ["So16NSObjectProtocolP", "navigationDelegate"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "processCookies"]
+- !private ["So16NSObjectProtocolP", "uiDelegate"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", "webView"]
+- ["So16NSObjectProtocolP", "webViewDidClose"]
+- ["So16NSObjectProtocolP", "webViewWebContentProcessDidTerminate"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "alias"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "navigationDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "uiDelegate"]
+- !private ["So12UIAppearanceP", "load"]
+- !private ["So12UIAppearanceP", "navigationDelegate"]
+- !private ["So12UIAppearanceP", "uiDelegate"]
+- !private ["So21UIAppearanceContainerP", "CookieName"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- !private ["So21UIAppearanceContainerP", "WKWebsiteDataStore"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "isUserAuthenticated"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "navigationDelegate"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "processCookies"]
+- !private ["So21UIAppearanceContainerP", "uiDelegate"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewDidClose"]
+- ["So21UIAppearanceContainerP", "webViewWebContentProcessDidTerminate"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "CookieName"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- !private ["So18UIContentContainerP", "WKWebsiteDataStore"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "isUserAuthenticated"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "processCookies"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "webView"]
+- ["So18UIContentContainerP", "webViewDidClose"]
+- ["So18UIContentContainerP", "webViewWebContentProcessDidTerminate"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So17UICoordinateSpaceP", "navigationDelegate"]
+- !private ["So17UICoordinateSpaceP", "uiDelegate"]
+- !private ["So13UIDynamicItemP", "load"]
+- !private ["So13UIDynamicItemP", "navigationDelegate"]
+- !private ["So13UIDynamicItemP", "uiDelegate"]
+- !private ["So18UIFocusEnvironmentP", "CookieName"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- !private ["So18UIFocusEnvironmentP", "WKWebsiteDataStore"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "isUserAuthenticated"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "navigationDelegate"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "processCookies"]
+- !private ["So18UIFocusEnvironmentP", "uiDelegate"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewDidClose"]
+- ["So18UIFocusEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So11UIFocusItemP", "navigationDelegate"]
+- !private ["So11UIFocusItemP", "uiDelegate"]
+- !private ["So22UINavigationControllerC", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "CookieName"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "WKWebsiteDataStore"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserAuthenticated"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "processCookies"]
+- !private ["So30UIPasteConfigurationSupportingP", "uiDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidClose"]
+- ["So30UIPasteConfigurationSupportingP", "webViewWebContentProcessDidTerminate"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CookieName"]
+- ["So11UIResponderC", "Error"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "WKNavigation"]
+- ["So11UIResponderC", "WKWebView"]
+- !private ["So11UIResponderC", "WKWebsiteDataStore"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isNavigationBarHidden"]
+- ["So11UIResponderC", "isUserAuthenticated"]
+- !private ["So11UIResponderC", "load"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "navigationDelegate"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "processCookies"]
+- ["So11UIResponderC", "touchPointAliasCookieName"]
+- !private ["So11UIResponderC", "uiDelegate"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewDidClose"]
+- ["So11UIResponderC", "webViewWebContentProcessDidTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "CookieName"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "WKWebsiteDataStore"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserAuthenticated"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "processCookies"]
+- !private ["So30UIResponderStandardEditActionsP", "uiDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidClose"]
+- ["So30UIResponderStandardEditActionsP", "webViewWebContentProcessDidTerminate"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "CookieName"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- !private ["So16UIStateRestoringP", "WKWebsiteDataStore"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "isUserAuthenticated"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "processCookies"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "webView"]
+- ["So16UIStateRestoringP", "webViewDidClose"]
+- ["So16UIStateRestoringP", "webViewWebContentProcessDidTerminate"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "CookieName"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- !private ["So18UITraitEnvironmentP", "WKWebsiteDataStore"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "isUserAuthenticated"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "navigationDelegate"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "processCookies"]
+- !private ["So18UITraitEnvironmentP", "uiDelegate"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewDidClose"]
+- ["So18UITraitEnvironmentP", "webViewWebContentProcessDidTerminate"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "load"]
+- !private ["So6UIViewC", "navigationDelegate"]
+- !private ["So6UIViewC", "uiDelegate"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CookieName"]
+- ["So16UIViewControllerC", "Error"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- ["So16UIViewControllerC", "WKNavigation"]
+- ["So16UIViewControllerC", "WKWebView"]
+- !private ["So16UIViewControllerC", "WKWebsiteDataStore"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isNavigationBarHidden"]
+- ["So16UIViewControllerC", "isUserAuthenticated"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "processCookies"]
+- ["So16UIViewControllerC", "touchPointAliasCookieName"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "webView"]
+- ["So16UIViewControllerC", "webViewDidClose"]
+- ["So16UIViewControllerC", "webViewWebContentProcessDidTerminate"]
+- ["So16UIViewControllerC", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- ["10Touchpoint14ViewControllerC", "Bool"]
+- !private ["10Touchpoint14ViewControllerC", "CookieName"]
+- ["10Touchpoint14ViewControllerC", "Error"]
+- !private ["10Touchpoint14ViewControllerC", "URL"]
+- !private ["10Touchpoint14ViewControllerC", "URLRequest"]
+- ["10Touchpoint14ViewControllerC", "WKNavigation"]
+- ["10Touchpoint14ViewControllerC", "WKWebView"]
+- !private ["10Touchpoint14ViewControllerC", "WKWebsiteDataStore"]
+- ["10Touchpoint14ViewControllerC", "deinit"]
+- ["10Touchpoint14ViewControllerC", "init"]
+- ["10Touchpoint14ViewControllerC", "isUserAuthenticated"]
+- !private ["10Touchpoint14ViewControllerC", "navigationController"]
+- !private ["10Touchpoint14ViewControllerC", "print"]
+- ["10Touchpoint14ViewControllerC", "processCookies"]
+- ["10Touchpoint14ViewControllerC", "touchPointAliasCookieName"]
+- ["10Touchpoint14ViewControllerC", "viewDidLoad"]
+- ["10Touchpoint14ViewControllerC", "webView"]
+- ["10Touchpoint14ViewControllerC", "webViewDidClose"]
+- ["10Touchpoint14ViewControllerC", "webViewWebContentProcessDidTerminate"]
+- !private ["So17WKHTTPCookieStoreC", "getAllCookies"]
+- !private ["So20WKNavigationDelegateP", "CookieName"]
+- !private ["So20WKNavigationDelegateP", "URL"]
+- !private ["So20WKNavigationDelegateP", "URLRequest"]
+- !private ["So20WKNavigationDelegateP", "WKWebsiteDataStore"]
+- !private ["So20WKNavigationDelegateP", "isUserAuthenticated"]
+- !private ["So20WKNavigationDelegateP", "navigationController"]
+- !private ["So20WKNavigationDelegateP", "print"]
+- !private ["So20WKNavigationDelegateP", "processCookies"]
+- ["So20WKNavigationDelegateP", "webView"]
+- ["So20WKNavigationDelegateP", "webViewDidClose"]
+- ["So20WKNavigationDelegateP", "webViewWebContentProcessDidTerminate"]
+- ["So20WKNavigationDelegateP", ""]
+- !private ["So12WKUIDelegateP", "CookieName"]
+- !private ["So12WKUIDelegateP", "URL"]
+- !private ["So12WKUIDelegateP", "URLRequest"]
+- !private ["So12WKUIDelegateP", "WKWebsiteDataStore"]
+- !private ["So12WKUIDelegateP", "isUserAuthenticated"]
+- !private ["So12WKUIDelegateP", "navigationController"]
+- !private ["So12WKUIDelegateP", "print"]
+- !private ["So12WKUIDelegateP", "processCookies"]
+- ["So12WKUIDelegateP", "webView"]
+- ["So12WKUIDelegateP", "webViewDidClose"]
+- ["So12WKUIDelegateP", "webViewWebContentProcessDidTerminate"]
+- ["So12WKUIDelegateP", ""]
+- !private ["So9WKWebViewC", "load"]
+- !private ["So9WKWebViewC", "navigationDelegate"]
+- !private ["So9WKWebViewC", "uiDelegate"]
+- !private ["So18WKWebsiteDataStoreC", "default"]
+- !private ["So18WKWebsiteDataStoreC", "httpCookieStore"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "load"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "navigationDelegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "uiDelegate"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CookieName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "WKWebsiteDataStore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAllCookies"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpCookieStore"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNavigationBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserAuthenticated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processCookies"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uiDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidClose"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewWebContentProcessDidTerminate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "10Touchpoint10CookieNameO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So10HTTPCookieC"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "10Touchpoint14ViewControllerC"
+- !private "So17WKHTTPCookieStoreC"
+- "So20WKNavigationDelegateP"
+- "So12WKUIDelegateP"
+- !private "So9WKWebViewC"
+- !private "So18WKWebsiteDataStoreC"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "13308b4b7603d166abbf064f4c78738c"
